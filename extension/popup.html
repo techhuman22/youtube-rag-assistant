@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YT Summarizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>YT RAG Assistant</h2>
+    <div id="chat-container">
+        <!-- Messages will appear here -->
+        <div class="user-message message" style="display:none">Example User</div>
+        <div class="bot-message message">Hello! Go to a YouTube video and ask me anything about it.</div>
+    </div>
+    <div class="loader" id="loader"></div>
+    <div class="input-container">
+        <input type="text" id="questionInput" placeholder="Ask a question..." />
+        <button id="askBtn">Send</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

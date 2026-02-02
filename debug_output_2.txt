@@ -1,0 +1,4 @@
+Attempting to instantiate and fetch...
+Instance created: <youtube_transcript_api._api.YouTubeTranscriptApi object at 0x00000207DB1B6F90>
+Has fetch method: True
+Has list method: True
